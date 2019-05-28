@@ -57,6 +57,7 @@ public class Board_sixPlayers {
 		lblNewLabel.setIcon(new ImageIcon(img));
 	//	lblNewLabel.setBounds(r);
 		frame.getContentPane().add(lblNewLabel, BorderLayout.CENTER);
+		
 	}
 
 }

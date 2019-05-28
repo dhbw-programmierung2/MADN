@@ -7,5 +7,6 @@ package player_package;
  *
  */
 public class Human extends Player{
+	
 
 }

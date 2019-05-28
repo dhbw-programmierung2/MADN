@@ -7,10 +7,11 @@ public class RollTheDice {
 	public static void main(String[] args) {
 		
 		rollTheDice();
+		
 	}
 	
 	/*
-	 * Methode würfelt eine zufällige Zahl von 1 - 6
+	 * Methode wï¿½rfelt eine zufï¿½llige Zahl von 1 - 6
 	 */
 	public static void rollTheDice() {
 		
