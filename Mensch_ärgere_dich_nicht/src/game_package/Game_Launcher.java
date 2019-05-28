@@ -13,7 +13,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 /**
- * Diese Klasse repräsentiert den Game Launcher.
+ * Diese Klasse reprï¿½sentiert den Game Launcher.
  * Dies ist der Einstieg in das Spiel, hier werden die Einstellungen gemacht
  * 
  * @author Jonas
@@ -28,7 +28,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	 * Benennung der Buttons -> Parameter
 	 */
 	
-	private JLabel lblWelcome = new JLabel("Mensch ärgere dich nicht - Game Launcher");
+	private JLabel lblWelcome = new JLabel("Mensch Ã„rgere dich nicht - Game Launcher");
 	//private JLabel lblChoosePlayer = new JLabel("Anzahl der Spieler");
 	//private JLabel lblChooseColour = new JLabel("Farbenauswahl");
 	
@@ -47,7 +47,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	private JButton btFuenfSpieler = new JButton("Go - 5 Spieler");
 	private JButton btSechsSpieler = new JButton("Go - 6 Spieler");
 	
-//	private JButton btConfirmColour = new JButton("Farbe bestätigen");
+//	private JButton btConfirmColour = new JButton("Farbe bestï¿½tigen");
 	private JButton btExit = new JButton("Beenden");
 	
 	private JTextField txtSpieler1name = new JTextField();
@@ -76,9 +76,9 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	 */
 	public Game_Launcher() {
 		
-		String[] colorsAvailable = {"Wähle eine Farbe","Grün","Rot","Blau","Gelb","Violett","Schwarz"};
+		String[] colorsAvailable = {"WÃ¤hle eine Farbe","GrÃ¼n","Rot","Blau","Gelb","Violett","Schwarz"};
 		
-		String[] typAuswahl = { "Wähle Gegner","Mensch", "Computer"};
+		String[] typAuswahl = { "WÃ¤hle Gegner","Mensch", "Computer"};
 
 		JComboBox colorListSpieler1 = new JComboBox(colorsAvailable);
 		JComboBox colorListSpieler2 = new JComboBox(colorsAvailable);
@@ -149,7 +149,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 		
 
 		/*
-		 * Hinzufügen der Buttons und Lables in den Container
+		 * Hinzufï¿½gen der Buttons und Lables in den Container
 		 */
 		cp.add(lblWelcome);
 	//	cp.add(lblChoosePlayer);
@@ -199,9 +199,9 @@ public class Game_Launcher extends JFrame implements ActionListener {
 		
 		/*
 		 * Titel des Fensters setzen
-		 * Größe in Pixeln des Fensters festlegen
+		 * Grï¿½ï¿½e in Pixeln des Fensters festlegen
 		 */
-		setTitle("Mensch Ärgere Dich Nicht");
+		setTitle("Mensch Ã„rgere Dich Nicht");
 		setSize(915,500);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
@@ -309,7 +309,7 @@ public class Game_Launcher extends JFrame implements ActionListener {
 	//	if (obj == btConfirmColour) {
 		
 			/*
-			 * Operation Farben bestätigen
+			 * Operation Farben bestï¿½tigen
 			 */
 			
 	//	}
